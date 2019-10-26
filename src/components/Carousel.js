@@ -44,9 +44,9 @@ export default class Carousel extends Component {
     let { src } = this.state;
     const styles = {
       backgroundImage: `url(${imageSrcs[src]})`,
-      backgroundSize: `cover`,
+      backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'center'
+      backgroundSize: 'cover'
     };
 
     return (
